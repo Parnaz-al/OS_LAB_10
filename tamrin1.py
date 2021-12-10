@@ -6,8 +6,8 @@ arcade.start_render()
 
 for row in range(10):
     for column in range(10):
-        x = column * 25 + 100
-        y = row * 25+ 100
+        x = column * 20 + 100
+        y = row * 20+ 100
         if (row+column)%2==0:
             arcade.draw_rectangle_filled(x, y, 10,10, arcade.color.ORANGE,45)
         else:
