@@ -1,7 +1,7 @@
 import random
 import arcade
 from pyglet.window.key import S
-import time
+
 
 SCREEN_WIDTH = 500
 SCREEN_HEIGHT= 500
